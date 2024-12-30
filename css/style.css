@@ -35,6 +35,7 @@
     transition: .5s;
 }
 
+
 .btn.btn-primary {
     color: #FFFFFF;
 }
@@ -376,6 +377,15 @@ h6,
     border-color: var(--primary);
 }
 
+.max {
+   
+    background-color: #FFFFFF;
+   
+}
+
+.max:hover {
+    background-color: var(--primary);
+}
 
 /*** Testimonial ***/
 .testimonial-carousel {
@@ -471,6 +481,33 @@ h6,
     box-shadow: none;
 }
 
+.btn-link2 {
+    display: block;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: left;
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: capitalize;
+    transition: .3s;
+}
+
+.btn-link2::before {
+    position: relative;
+    
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+.btn-link2:hover {
+    color: var(--primary) !important;
+    letter-spacing: 1px;
+    box-shadow: none;
+}
+
+
+
 .footer .form-control {
     border-color: rgba(255,255,255,0.5);
 }
@@ -481,9 +518,12 @@ h6,
     border-top: 1px solid rgba(256, 256, 256, .1);
 }
 
+
+
 .footer .copyright a {
     color: #FFFFFF;
 }
+
 
 .footer .footer-menu a {
     margin-right: 15px;
@@ -495,6 +535,10 @@ h6,
 .footer .footer-menu a:hover {
     color: var(--primary) !important;
 }
+
+
+
+
 
 .footer .footer-menu a:last-child {
     margin-right: 0;
